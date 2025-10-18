@@ -17,7 +17,7 @@ function Contact() {
 
       {/* Phone */}
       <p style={{ fontSize: "1.1rem", color: "#444", marginBottom: "10px" }}>
-        📞 <b>Phone:</b> +234 (706) 941-9285
+        📞 <b>Phone:</b> +234 706 941 9285
       </p>
 
       {/* GitHub */}

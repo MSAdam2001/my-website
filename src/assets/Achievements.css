@@ -9,16 +9,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+  gap: 40px;
 }
 
 .stat-card {
   background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
   padding: 30px 40px;
   min-width: 180px;
   transition: transform 0.3s ease, background 0.3s ease;
 }
 
+.stat-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+}
 
 .stat-card h2 {
   font-size: 2.8rem;
